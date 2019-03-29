@@ -1,0 +1,13 @@
+body {
+   font-family: 'Dosis', sans-serif; 
+   font-size: 2em;
+}
+
+#after_submit{
+   visibility: hidden;
+}
+
+#picture {
+	width: 375px;
+	height: 245px;
+}

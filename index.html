@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Kevin's Kwiz!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>This is best quiz on the internet!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">The human brain uses only 10% of it's power.</p>
+<input type = "radio" id = "tof" name = "question1" value="false"> False<br>
+<input type = "radio" id = "tof" name = "question1" value="true"> True<br>
+
+<p class = "questions">The best way to open this banana is from the left side.</p>
+<img src="img/banana.jpeg" id="banana" alt="a picture of a banana">
+<input type = "radio" id = "tof" name = "question2"  value="false"> False <br>
+<input type = "radio" id = "tof" name = "question2"  value="true"> True  <br>
+
+<p class = "questions">Dolphins brains stay half awake at all times, so they don't drown.</p>
+
+<input type = "radio" id = "tof" name = "question3"  value="false"> False<br>
+<input type = "radio" id = "tof" name = "question3"  value="true"> True<br>
+
+<p class = "questions">There are more trees on Earth than there are stars in the sky.</p>
+<input type = "radio" id = "tof" name = "question4"  value="false">False<br>
+<input type = "radio" id = "tof" name = "question4"  value="true">True<br>
+
+<p class = "questions">Twinkies are good for several years.</p>
+<input type = "radio" id = "tof" name = "question5"  value="false">False<br>
+<input type = "radio" id = "tof" name = "question5"  value="true">True<br>
+
+<p class = "questions">Tomatoes are a fruit.</p>
+<input type = "radio" id = "tof" name = "question6"  value="false">False<br>
+<input type = "radio" id = "tof" name = "question6"  value="true">True<br>
+
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "hey();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
